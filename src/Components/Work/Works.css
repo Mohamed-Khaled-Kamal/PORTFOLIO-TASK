@@ -1,0 +1,75 @@
+.Work{
+    padding: 0 10%;
+}
+.my-proj{
+    background-image: url(../../assets/Imgs/Work1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.651);
+    opacity: 0;
+    transition: .3s;
+}
+
+.my-proj:hover{
+    .overlay{
+
+        opacity: 1;
+    }
+}
+
+.overlay-con{
+    height: 300px;
+    padding: 50px;
+}
+
+.icons{
+    position: absolute;
+    bottom: 20px;
+}
+
+.icons i {
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0.377);
+    cursor: pointer;
+}
+
+.Show-More{
+    width: 200px;
+}
+
+.pj-2{
+    background-image: url(../../assets/Imgs/Work2.jpg);
+}
+
+.pj-3{
+    background-image: url(../../assets/Imgs/Work3.jpg);
+}
+
+.pj-4{
+    background-image: url(../../assets/Imgs/Work4.jpg);
+}
+
+.pj-5{
+    background-image: url(../../assets/Imgs/Work5.jpg);
+}
+
+.pj-6{
+    background-image:url(../../assets/Imgs/Work6.jpg) ;
+}
